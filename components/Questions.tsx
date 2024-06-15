@@ -8,7 +8,7 @@ const Questions = () => {
   return (
     <section className=" flex-col max-container padding-container ">
       <h2 className="text-xl uppercase font-semibold">Preguntas Frecuentes</h2>
-      <div className="w-3/4 lg:w-1/2 py-4">
+      <div className="w-full lg:w-1/2 py-4">
         <ul className="flex flex-col gap-2">
           {QA.map((question, index) => (
             <li

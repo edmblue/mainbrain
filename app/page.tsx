@@ -22,7 +22,7 @@ export default function Home() {
             seres queridos!
           </p>
         </div>
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-col md:flex-row justify-center gap-3">
           <button className="py-2 px-3 border-2 rounded-md font-semibold hover:text-gray-600 hover:bg-gray-200 relative group">
             Suscribirse
             <span className="arrow ml-2 transition-transform duration-300 group-hover:translate-x-1"></span>
